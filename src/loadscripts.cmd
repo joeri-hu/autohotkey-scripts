@@ -14,7 +14,7 @@
 :: @brief
 ::   Entry point of this module.
 :: @params
-::   args[in] One or more command-line arguments.
+::   args[in] ............ One or more command-line arguments.
 :: @returns
 ::   0 ................... Program was executed successfully.
 :main (__in args...:*) {
@@ -29,7 +29,7 @@
 ::   Executes all script files in the current directory with the given file
 ::   extension.
 :: @params
-::   ext[in] ............. File extension of the script files to match.
+::   ext[in] ............. File extension of the script files.
 :exec_scripts (__in ext:1) {
     for %%e in ("*.%~1") do (
         start "" "%%~fe"
