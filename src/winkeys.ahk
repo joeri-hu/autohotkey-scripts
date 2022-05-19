@@ -18,12 +18,20 @@
 ; @hotkey
 ;   Switch virtual desktops
 ; @shortcuts
-;   Win + CapsLk ......... Toggle between next and previous desktop.
-;   Win + Q .............. Previous virtual dekstop.
-;   Win + W .............. Next virtual desktop.
+;   Win + CapsLock ....... Toggle between the next and previous desktop.
+;   Win + Q .............. Next virtual dekstop.
+;   Win + Shift + Q ...... Previous virtual desktop.
 #CapsLock:: shortcut.toggle_desktop()
-#q::        shortcut.switch_desktop(cycle.prev)
-#w::        shortcut.switch_desktop(cycle.next)
+#q::        shortcut.switch_desktop(cycle.next)
+#+q::       shortcut.switch_desktop(cycle.prev)
+
+; @hotkey
+;   Switch topmost windows
+; @shortcut
+;   Win + Z .............. Next topmost window.
+;   Win + Shift + Z ...... Previous topmost window.
+#z::  shortcut.switch_window(cycle.next)
+#+z:: shortcut.switch_window(cycle.prev)
 
 ; @hotkey
 ;   Play next (YouTube) tab in next virtual desktop
