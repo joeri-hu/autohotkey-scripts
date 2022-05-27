@@ -209,7 +209,7 @@
 ;   File headers.
 :*X:@pf:: shell.paste("
 (
-"""!
+""""""!
 @file       ..
 @version    0.1
 @date       .. ..
@@ -218,117 +218,117 @@
 
 @brief      ..
 @details    ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Enumerations.
 :*X:@pe:: shell.paste("
 (
-"""!
+""""""!
 @enum ..
 @brief ..
 @details ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Classes.
 :*X:@pc:: shell.paste("
 (
-"""!
+""""""!
 @class ..
 @brief ..
 @details ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Overloaded functions.
 :*X:@po:: shell.paste("
 (
-"""!
+""""""!
 @overload ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Short functions or constructors returning no values.
 :*X:@pb:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Functions or constructors returning no values.
 :*X:@pd:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @details ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Getter functions.
 :*X:@pr:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @return ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Functions taking no parameters.
 :*X:@p0:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @details ..
 @return ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Functions taking one parameter.
 :*X:@p1:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @details ..
 @param[in] .. ..
 @return ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Functions taking two parameters.
 :*X:@p2:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @details ..
 @param[in] .. ..
 @param[in] .. ..
 @return ..
-"""
+""""""
 )")
 
 ; @hotstring
 ;   Functions taking three parameters.
 :*X:@p3:: shell.paste("
 (
-"""!
+""""""!
 @brief ..
 @details ..
 @param[in] .. ..
 @param[in] .. ..
 @param[in] .. ..
 @return ..
-"""
+""""""
 )")
 
 ; @hotstring
