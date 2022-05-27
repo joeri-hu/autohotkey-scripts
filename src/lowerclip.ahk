@@ -9,9 +9,9 @@
 ; @brief
 ;   Converts the textual contents of the clipboard to its lowercase equivalent.
 
+#noenv
 #persistent
 #singleinstance
-#noenv
 
 ; @hotkey
 ;   Paste clipboard converted to lowercase
@@ -20,7 +20,7 @@
 ;     1) Convert the clipboard to lowercase.
 ;     2) Paste the clipboard to the active window.
 ^#v::
-    StringLower, cliplow, Clipboard
-    Clipboard := cliplow
+    StringLower, cliplow, ClipBoard
+    ClipBoard := cliplow
     Send, ^v
     return

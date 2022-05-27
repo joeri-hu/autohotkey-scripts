@@ -5,13 +5,13 @@
 ; @copyright  GPL-3.0 license
 ;
 ; @title
-;   Generic String Shortcuts
+;   Common String Shortcuts
 ; @brief
 ;   Provides keyboard shortcuts/hotstrings for common words/phrases.
 
+#noenv
 #persistent
 #singleinstance
-#noenv
 
 ; @hotstring
 ;   Discography lookups via Google

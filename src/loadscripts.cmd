@@ -9,7 +9,7 @@
 :: @brief
 ::   Loads all AutoHotKey scripts located in the current directory.
 
-:: @label
+:: @function
 ::   main
 :: @brief
 ::   Entry point of this module.
@@ -23,7 +23,7 @@
     exit /b 0
 }
 
-:: @label
+:: @function
 ::   exec_scripts
 :: @brief
 ::   Executes all script files in the current directory with the given file
